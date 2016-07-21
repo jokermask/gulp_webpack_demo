@@ -76,7 +76,7 @@ gulp.task('clean', function() {
 
 // 预设任务
 gulp.task('default', ['clean'], function() {
-  gulp.start('styles', 'scripts', 'images');
+  gulp.start('styles', 'scripts', 'images', 'html');
 });
 
 
